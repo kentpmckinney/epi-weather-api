@@ -1,3 +1,5 @@
+<!-- Category: HTML/CSS/JS -->
+
 # Project
 ## Name of Project
 https://github.com/kentpmckinney/epicodus-webkit-template

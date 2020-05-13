@@ -1,10 +1,8 @@
-/* eslint-disable indent */
-/* eslint-disable no-unused-vars */
 import $ from 'jquery';
 import './style.css';
 
-$(document).ready(function() {
-  $('#weatherLocation').click(function() {
+$(document).ready(function () {
+  $('#weatherLocation').click(function () {
     let city = $('#location').val();
     $('#location').val("");
 
@@ -18,12 +16,12 @@ $(document).ready(function() {
           jsonifiedResponse = false;
         }
         getElements(jsonifiedResponse);
-      } catch(e) {
+      } catch (e) {
         getElements(false);
       }
     })();
 
-    const getElements = function(response) {
+    const getElements = function (response) {
       if (response) {
         $('.showHumidity').text(`The humidity in ${city} is ${response.main.humidity}%`);
         $('.showTemp').text(`The temperature in Kelvins is ${response.main.temp} degrees.`);

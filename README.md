@@ -36,17 +36,9 @@ Git (optional but recommended)
 4. Build the application with the command `npm run build`
 5. Start the application with the command `npm run start`
 
-## Running Automated Tests
-
-how to run the automated tests
-
-```
-example
-```
-
 ## Deployment
 
-
+Source files are deployable as-is
 
 ## Technologies Used
 
@@ -65,3 +57,4 @@ Winter Runion
 
 ## Acknowledgments
 
+https://www.learnhowtoprogram.com/intermediate-javascript/asynchrony-and-apis/making-api-calls-with-javascript

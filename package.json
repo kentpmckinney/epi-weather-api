@@ -2,7 +2,7 @@
   "name": "epi-weather-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/main.js",
   "scripts": {
     "build": "webpack --mode development; cp dist/index.html ./; cp dist/bundle.js ./",
     "start": "npm run build; webpack-dev-server --open --mode development",

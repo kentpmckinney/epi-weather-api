@@ -32,3 +32,27 @@ $(document).ready(function () {
     };
   });
 });
+
+/*
+
+	$('#weather-button').click(function() {
+		const city = $('#weather-input').val();
+		(async () => {
+			try {
+				let response = await fetch(
+					`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${openWeatherApiKey}`
+				);
+				let jsonifiedResponse;
+				if (response.ok && response.status === 200) {
+					jsonifiedResponse = await response.json();
+				} else {
+					jsonifiedResponse = false;
+				}
+				$('#results').append(jsonifiedResponse.weather[0].description);
+			} catch (e) {
+				alert(e.message);
+			}
+		})();
+	});
+
+*/

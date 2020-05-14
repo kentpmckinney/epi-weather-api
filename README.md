@@ -38,7 +38,7 @@ Git (optional but recommended)
 
 ## Deployment
 
-Source files are deployable as-is
+Run the command 'npm run build' and deploy the files 'index.html' and 'bundle.js' in the root directory
 
 ## Technologies Used
 
